@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Mik Doces</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="container-header">
+                <img id="img-logo" src="imgs/logo-removebg-preview.png" alt="logo Mika Doces">
+                <h2>
+                    Mik <img id="img-logo-titulo" src="imgs/espatula-removebg-preview.png" alt="Imagem espátula de bater"> Doces
+                </h2>
+                <div class="menu-hamburguer">
+                    <span>
+        
+                    </span>
+                    <span>
+        
+                    </span>
+                    <span>
+        
+                    </span>
+                </div>
+                
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#">home</a></li>
+                    <li><a href="#">Itens Individuais</a></li>
+                    <li><a href="#">Kits</a></li>
+                    <li><a href="#">Contato</a></li>
+                </ul>
+            </nav>
+        </header>
+    </div>
+
+    <section id="itens-individuais">
+        <h2>Itens Individuais</h2>
+        <ul>
+            <li>Doces personalizados</li>
+            <li>Trufas</li>
+            <li>Bombons</li>
+            <li>Quadrados</li>
+            <li>Cones Chocolate</li>
+            <li>Cones Sorvete</li>
+            <li>Pirulitos</li>
+            <li>Casinha</li>
+            <li>Carrinho</li>
+            <li>Popsicles</li>
+            <li>Redondos</li>
+            <li>Porta retratos</li>
+            <li>copinhos</li>
+            <li>Bolinhos</li>
+            <li>Maçã</li>
+            <li>Cupcakes</li>
+        </ul>
+    </section>
+
+    <section id="kits">
+        <h2>Kits</h2>
+        <div>
+            <h3>Kit simples</h3>
+            <ul>
+                <li>40 doces personalizados</li>
+            </ul>
+        </div>
+
+        <div>
+            <h3>Kit Bronze</h3>
+            <ul>
+                <li>40 doces</li>
+            </ul>
+        </div>
+
+        <div>
+            <h3>Kit Prata</h3>
+            <ul>
+                <li>40 doces</li>
+            </ul>
+        </div>
+
+        <div>
+            <h3>Kit Bronze</h3>
+            <ul>
+                <li>40 doces</li>
+            </ul>
+        </div>
+
+    </section>
+
+    <section id="contato">
+        <h3>Entre em contato</h3>
+        <ul>
+            <li><a href="#">logoWhats</a></li>
+            <li><a href="#">LogoInsta</a></li>
+        </ul>
+    </section>
+
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            $('#carrocel-img').slick({
+                autoplay: true
+            });
+
+
+            $(".menu-hamburguer").click(function() {
+                $('nav').slideToggle();
+            });
+        })
+    </script>
+</body>
+</html>
